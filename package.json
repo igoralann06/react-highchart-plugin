@@ -1,0 +1,29 @@
+{
+  "name": "react-highcharts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "highcharts": "8.2.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.0",
+    "react-scripts": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format": "prettier --single-quote --trailing-comma es5 --write 'src/**/*.js'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie > 0", "not op_mini all"],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
